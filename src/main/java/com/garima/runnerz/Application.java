@@ -22,6 +22,11 @@ public class Application {
 
 		SpringApplication.run(Application.class, args);
 	}
+//	Record - it is immutable we cnt change it later no neeed to putt getters and setters, contructures here
+//  MVC = model view Controller
+//	model(thing or type that we are going to work with) = Run , Location
+// view(Represent) - Json
+//	Controller -> dont do anything give tasks to some other classes take a response return back the response
 
 	@Bean
 	CommandLineRunner runner() {
