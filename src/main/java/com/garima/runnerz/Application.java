@@ -28,13 +28,13 @@ public class Application {
 //	model(thing or type that we are going to work with) = Run , Location
 // view(Represent) - Json
 //	Controller -> dont do anything give tasks to some other classes take a response return back the response
-
-	@Bean
-	CommandLineRunner runner(RunRepository runRepository) {
-		return args -> {
-			Run run = new Run(1, "first run", LocalDateTime.now(),LocalDateTime.now().plus(1, ChronoUnit.HOURS), 3, Location.OUTDOOR);
-			runRepository.create(run);
-		};
-	}
+//
+//	@Bean
+//	CommandLineRunner runner(RunRepository runRepository) {
+//		return args -> {
+//			Run run = new Run(1, "first run", LocalDateTime.now(),LocalDateTime.now().plus(1, ChronoUnit.HOURS), 3, Location.OUTDOOR);
+//			runRepository.create(run);
+//		};
+//	}
 
 }
